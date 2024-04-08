@@ -1,0 +1,64 @@
+.bankingfundas{
+    margin-left: 30px;
+    color: azure;
+}
+.logo{
+    margin-top: 20px;
+    /* margin-left: 10px; */
+    text-align: right;
+    width: 25%;
+}
+.heading{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.container{
+    background-color: black;
+    padding-bottom: 10px;
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+}
+hr{
+    height: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: greenyellow;
+}
+#list {
+    display: none;
+    color: aliceblue;
+}
+.bankbutton{
+    margin-left: 15px;
+}
+#banklist{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flexbox;
+    cursor: pointer;
+}
+#maintext{
+    font-size: 50px;
+    color: aliceblue;
+}
+.headtext{
+    height: 150px;
+    overflow: hidden;
+    margin-left: 240px;
+    /* text-align: center; */
+    display: inline;
+}
+.bottom{
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    
+}
