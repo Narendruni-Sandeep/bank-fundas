@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Fundas</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <div class="blogo"> <img src="blogo.jpg" width="30%"></div>
+            <div class="bankingfundas"><h1>BANKING FUNDAS</h1></div>
+            <div class="logo"> <img src="pennentlogo.jpg" width="50%"></div>
+        </div>
+        <hr>
+        <div class="bottom" style="display: grid;grid-template-columns: 10% 90%;">
+            <div class="bankbutton">
+                <button id="banklist">Banks</button>
+                <ul id="list" style="display: none;">
+                    <li><button id="hdfc">HDFC</button></li>
+                    <li><button id="axis">AXIS</button></li>
+                    <!-- Add buttons for other banks -->
+                </ul>
+            </div>
+            <div class="headtext">
+                <p id="maintext">Comparing loans made easy</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slideshow-container" id="slideshow">
+        <div class="slideshow">
+            <!-- Placeholder slides -->
+            <div class="slide fade">
+                <img src="bank1.jpg" style="width:100%">
+            </div>
+            <div class="slide fade">
+                <img src="bank2.jpg" style="width:100%">
+            </div>
+            <!-- Add more slides if needed -->
+        </div>
+    </div>
+
+    <div id="loanInfo" class="slideshow" style="display: none;">
+        <!-- Placeholder for HDFC loan information -->
+        <div id="hdfcLoan" class="slide fade">
+            <h2>HDFC Loans</h2>
+            <p>Loan 1 information goes here</p>
+            <p>Loan 2 information goes here</p>
+            <!-- Add more loan information for HDFC -->
+        </div>
+
+        <!-- Placeholder for AXIS loan information -->
+        <div id="axisLoan" class="slide fade">
+            <h2>AXIS Loans</h2>
+            <p>Loan 1 information goes here</p>
+            <p>Loan 2 information goes here</p>
+            <!-- Add more loan information for AXIS -->
+        </div>
+
+        <!-- Add placeholders for other banks -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
