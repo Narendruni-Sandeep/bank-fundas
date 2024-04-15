@@ -1,3 +1,26 @@
+/* Add CSS styling for the slideshow */
+.slideshow-container {
+    width: 100%; /* Adjust the width to fit the entire viewport */
+    overflow: hidden; /* Hide the overflow to prevent horizontal scrolling */
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+/* Add CSS for the active slide */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
 .bankingfundas{
     margin-left: 30px;
     color: azure;
@@ -16,7 +39,7 @@
 }
 .container{
     background-color: black;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     height: 300px;
     overflow: hidden;
     width: 100%;
@@ -47,6 +70,7 @@ hr{
 }
 #maintext{
     font-size: 50px;
+    margin-left: 45px;
     color: aliceblue;
 }
 .headtext{
@@ -61,4 +85,55 @@ hr{
     padding: 5px;
     background-color: black;
     
+}
+#hdfc{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#axis{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#bajaj{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#kotak{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#sbi{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#boi{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+
+/* Add CSS styling for the loan information */
+#loanInfo {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#loanInfo h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#loanInfo p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
 }
